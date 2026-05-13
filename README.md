@@ -88,7 +88,7 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml).
 | Skill | Best for | Why it is useful |
 | --- | --- | --- |
 | [`d3js-visualization`](https://github.com/ComposioHQ/awesome-claude-skills) | educator, data trainer | Create interactive charts and learning visuals from datasets or concept models. |
-| [`hyperframes`](skills/hyperframes) | course creator, trainer, instructional designer | Create HTML-based lesson videos, animated explainers, captions, voiceovers, overlays, and training recaps. |
+| [`hyperframes`](https://github.com/heygen-com/hyperframes) | course creator, trainer, instructional designer | Create HTML-based lesson videos, animated explainers, captions, voiceovers, overlays, and training recaps. |
 | [`canvas-design`](https://github.com/skillcreatorai/Awesome-Agent-Skills) | course creator, instructional designer | Create static visual assets for course pages, worksheets, and quick explainers. |
 | [`image-enhancer`](https://github.com/skillcreatorai/Awesome-Agent-Skills) | course creator, trainer | Improve screenshots and rough visuals before placing them into lessons or slides. |
 

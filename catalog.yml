@@ -141,7 +141,6 @@ skills:
   - name: hyperframes
     category: visual-learning
     url: https://github.com/heygen-com/hyperframes
-    local_path: skills/hyperframes
     owner: heygen-com
     summary: Create HTML-based lesson videos, animated explainers, captions, voiceovers, overlays, and training recaps.
     audience:
