@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{id}}</title>
+    <style>
+      edu-role-play > :not([data-erp-fallback]) { display: none; }
+      [data-erp-fallback].notice {
+        display: block;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        max-width: 560px;
+        margin: 60px auto;
+        padding: 24px;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        background: #fafafa;
+        color: #111;
+        line-height: 1.5;
+      }
+      [data-erp-fallback] h2 { margin: 0 0 8px 0; font-size: 18px; }
+      [data-erp-fallback] code, [data-erp-fallback] pre {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 13px;
+      }
+      [data-erp-fallback] pre {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        padding: 10px 12px;
+        overflow-x: auto;
+      }
+      [data-erp-fallback] p { margin: 8px 0; color: #374151; }
+    </style>
+  </head>
+  <body>
+    <edu-role-play id="{{id}}" runtime-version="{{runtimeVersion}}">
+      <div class="notice" data-erp-fallback>
+        <h2>This role-play isn't bundled yet</h2>
+        <p>You're looking at the source composition. Open a terminal in this folder and run:</p>
+        <pre><code>npx edu-role-play start {{id}}.erp</code></pre>
+        <p>That bundles the role-play and opens the playable version in your browser.</p>
+      </div>
+      <edu-persona name="Sarah Chen" role="VP of Operations">
+        <background>15 years in logistics. Burned by a failed CRM migration in 2023 championed by her predecessor. Evaluates vendors by peer references first, demo second.</background>
+        <goals>Cut vendor count by 30% before Q4 board review. Wants a named reference customer in the 3PL segment.</goals>
+        <constraints>Budget locked until Q3. Won't sign without a named peer reference. No pilots longer than 60 days.</constraints>
+        <speech-patterns>Interrupts vague claims with "what does that mean specifically?". Asks for numbers within two turns. Dry, not hostile.</speech-patterns>
+      </edu-persona>
+
+      <edu-scenario>
+        You are an account executive pitching Acme CRM to Sarah Chen. You have roughly 15 minutes with her. Your job is to surface a real operational pain she owns, get her to quantify it, and secure a concrete follow-up.
+      </edu-scenario>
+
+      <edu-objective id="surface-pain">Surface a specific operational pain Sarah owns and ties to a process.</edu-objective>
+      <edu-objective id="quantify-impact">Get Sarah to share a dollar, hour, or headcount number tied to that pain.</edu-objective>
+      <edu-objective id="book-followup">Secure a follow-up meeting with a date and named attendees.</edu-objective>
+
+      <edu-rubric>
+        <criterion objective="surface-pain" weight="3">Full credit (3): learner elicits a pain that is specific, Sarah-owned, and tied to a process. Partial (1-2): pain is generic or not Sarah-owned. None (0): learner supplies the pain or Sarah never confirms one.</criterion>
+        <criterion objective="quantify-impact" weight="4">Full credit (4): Sarah volunteers a dollar / hour / headcount number. Partial (1-3): learner has to propose a number Sarah then accepts. None (0): no number surfaces.</criterion>
+        <criterion objective="book-followup" weight="3">Full credit (3): concrete date + named attendees agreed. Partial (1-2): date only or vague "next week". None (0): no follow-up committed.</criterion>
+      </edu-rubric>
+
+      <edu-termination>
+        <turn-limit>20</turn-limit>
+        <objective-check-every>1</objective-check-every>
+        <manual-end>true</manual-end>
+      </edu-termination>
+    </edu-role-play>
+  </body>
+</html>

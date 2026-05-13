@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{id}}</title>
+    <style>
+      edu-role-play > :not([data-erp-fallback]) { display: none; }
+      [data-erp-fallback].notice {
+        display: block;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        max-width: 560px;
+        margin: 60px auto;
+        padding: 24px;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        background: #fafafa;
+        color: #111;
+        line-height: 1.5;
+      }
+      [data-erp-fallback] h2 { margin: 0 0 8px 0; font-size: 18px; }
+      [data-erp-fallback] code, [data-erp-fallback] pre {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 13px;
+      }
+      [data-erp-fallback] pre {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        padding: 10px 12px;
+        overflow-x: auto;
+      }
+      [data-erp-fallback] p { margin: 8px 0; color: #374151; }
+    </style>
+  </head>
+  <body>
+    <edu-role-play id="{{id}}" runtime-version="{{runtimeVersion}}">
+      <div class="notice" data-erp-fallback>
+        <h2>This role-play isn't bundled yet</h2>
+        <p>You're looking at the source composition. Open a terminal in this folder and run:</p>
+        <pre><code>npx edu-role-play start {{id}}.erp</code></pre>
+        <p>That bundles the role-play and opens the playable version in your browser.</p>
+      </div>
+      <edu-persona name="Priya Varma" role="external GDPR auditor">
+        <background>Twelve years in data-protection audits. Currently reviewing your company's subject-access-request (SAR) process for a SOC 2 + GDPR combined attestation.</background>
+        <goals>Establish that SARs are fulfilled within 30 days and that identity verification is documented. Wants artefacts, not assurances.</goals>
+        <constraints>Cannot accept verbal commitments as evidence. Will escalate to a written finding if she cannot see a process artefact within the conversation.</constraints>
+        <speech-patterns>Formal. Asks "can you walk me through the last SAR you handled?" Repeats the question verbatim if answered evasively.</speech-patterns>
+      </edu-persona>
+
+      <edu-scenario>
+        You are the privacy lead at your company. Priya Varma is interviewing you about how you handle data subject access requests. Your job is to answer precisely, surface evidence, and avoid over-committing to controls you don't actually have.
+      </edu-scenario>
+
+      <edu-objective id="state-sla">State the 30-day SAR response SLA and confirm how it is tracked.</edu-objective>
+      <edu-objective id="surface-evidence">Surface a concrete artefact (ticket, log, template) that proves the process exists.</edu-objective>
+      <edu-objective id="avoid-overclaim">Handle a question about a control you do not have without inventing one.</edu-objective>
+
+      <edu-rubric>
+        <criterion objective="state-sla" weight="3">Full credit (3): learner states the 30-day SLA and names the tracking mechanism. Partial (1-2): SLA stated but tracking vague. None (0): SLA wrong or absent.</criterion>
+        <criterion objective="surface-evidence" weight="4">Full credit (4): learner names a specific artefact Priya can request. Partial (1-3): artefact named but not specific. None (0): only verbal assurance.</criterion>
+        <criterion objective="avoid-overclaim" weight="3">Full credit (3): learner declines to claim a control they don't have and offers a compensating one. Partial (1-2): hedged but still over-claims. None (0): invents a control.</criterion>
+      </edu-rubric>
+
+      <edu-termination>
+        <turn-limit>20</turn-limit>
+        <objective-check-every>1</objective-check-every>
+        <manual-end>true</manual-end>
+      </edu-termination>
+    </edu-role-play>
+  </body>
+</html>

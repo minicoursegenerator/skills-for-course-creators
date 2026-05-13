@@ -1,0 +1,197 @@
+skills:
+  - name: edu-role-play
+    category: interactive-practice
+    url: https://github.com/minicoursegenerator/edu-role-play
+    local_path: skills/edu-role-play
+    owner: minicoursegenerator
+    summary: Create interactive AI role-play training activities as self-contained HTML with objectives and rubric scoring.
+    audience:
+      - L&D
+      - instructional designer
+      - educator
+      - course creator
+    license: MIT
+    first_party: true
+    install: npx skills add minicoursegenerator/edu-role-play
+
+  - name: docx
+    category: course-assets
+    url: https://github.com/anthropics/skills/tree/main/skills/docx
+    owner: anthropics
+    summary: Create and revise Word-based handouts, facilitator guides, worksheets, and policy documents.
+    audience:
+      - instructional designer
+      - course creator
+    license: See source
+    first_party: false
+
+  - name: pdf
+    category: course-assets
+    url: https://github.com/anthropics/skills/tree/main/skills/pdf
+    owner: anthropics
+    summary: Extract, inspect, merge, and annotate PDF source material before turning it into lessons.
+    audience:
+      - L&D
+      - educator
+    license: See source
+    first_party: false
+
+  - name: pptx
+    category: course-assets
+    url: https://github.com/anthropics/skills/tree/main/skills/pptx
+    owner: anthropics
+    summary: Create and edit slide decks for workshops, webinars, and instructor-led training.
+    audience:
+      - trainer
+      - instructional designer
+    license: See source
+    first_party: false
+
+  - name: xlsx
+    category: course-assets
+    url: https://github.com/anthropics/skills/tree/main/skills/xlsx
+    owner: anthropics
+    summary: Analyze learner data, build trackers, and prepare course planning spreadsheets.
+    audience:
+      - learning operations
+      - L&D
+    license: See source
+    first_party: false
+
+  - name: markdown-to-epub-converter
+    category: course-assets
+    url: https://github.com/smerchek/claude-epub-skill
+    owner: smerchek
+    summary: Convert long-form Markdown lessons, research notes, or guides into portable EPUB ebooks.
+    audience:
+      - course creator
+      - educator
+    license: MIT
+    first_party: false
+
+  - name: content-research-writer
+    category: research-source-material
+    url: https://github.com/ComposioHQ/awesome-claude-skills
+    owner: ComposioHQ
+    summary: Research and improve written course content with citations, hooks, outlines, and section feedback.
+    audience:
+      - course creator
+      - educator
+      - marketer
+    license: Apache-2.0
+    first_party: false
+
+  - name: deep-research
+    category: research-source-material
+    url: https://github.com/eugeniughelbur/obsidian-second-brain
+    owner: eugeniughelbur
+    summary: Run deeper source gathering from an existing knowledge vault before drafting learning material.
+    audience:
+      - instructional designer
+      - researcher
+    license: See source
+    first_party: false
+
+  - name: youtube-full
+    category: research-source-material
+    url: https://github.com/ZeroPointRepo/youtube-skills
+    owner: ZeroPointRepo
+    summary: Pull transcripts and video metadata from YouTube source material for summaries, lessons, and quizzes.
+    audience:
+      - educator
+      - course creator
+    license: MIT
+    first_party: false
+
+  - name: notebooklm-skill
+    category: research-source-material
+    url: https://github.com/PleasePrompto/notebooklm-skill
+    owner: PleasePrompto
+    summary: Query NotebookLM notebooks for source-grounded answers from uploaded documents.
+    audience:
+      - L&D
+      - researcher
+      - educator
+    license: MIT
+    first_party: false
+
+  - name: meeting-insights-analyzer
+    category: training-analysis
+    url: https://github.com/skillcreatorai/Awesome-Agent-Skills
+    owner: skillcreatorai
+    summary: Analyze transcripts for behavior patterns such as speaking ratios, conflict avoidance, and leadership style.
+    audience:
+      - L&D
+      - coach
+      - team lead
+    license: MIT
+    first_party: false
+
+  - name: d3js-visualization
+    category: visual-learning
+    url: https://github.com/ComposioHQ/awesome-claude-skills
+    owner: ComposioHQ
+    summary: Create interactive charts and learning visuals from datasets or concept models.
+    audience:
+      - educator
+      - data trainer
+    license: Apache-2.0
+    first_party: false
+
+  - name: hyperframes
+    category: visual-learning
+    url: https://github.com/heygen-com/hyperframes
+    local_path: skills/hyperframes
+    owner: heygen-com
+    summary: Create HTML-based lesson videos, animated explainers, captions, voiceovers, overlays, and training recaps.
+    audience:
+      - course creator
+      - trainer
+      - instructional designer
+    license: Apache-2.0
+    first_party: false
+    install: npx skills add heygen-com/hyperframes
+
+  - name: canvas-design
+    category: visual-learning
+    url: https://github.com/skillcreatorai/Awesome-Agent-Skills
+    owner: skillcreatorai
+    summary: Create static visual assets for course pages, worksheets, and quick explainers.
+    audience:
+      - course creator
+      - instructional designer
+    license: MIT
+    first_party: false
+
+  - name: image-enhancer
+    category: visual-learning
+    url: https://github.com/skillcreatorai/Awesome-Agent-Skills
+    owner: skillcreatorai
+    summary: Improve screenshots and rough visuals before placing them into lessons or slides.
+    audience:
+      - course creator
+      - trainer
+    license: MIT
+    first_party: false
+
+  - name: google-workspace-skills
+    category: delivery-productivity
+    url: https://github.com/ComposioHQ/awesome-claude-skills
+    owner: ComposioHQ
+    summary: Coordinate Docs, Sheets, Slides, Drive, Calendar, and Gmail workflows around course production.
+    audience:
+      - L&D
+      - learning operations
+    license: Apache-2.0
+    first_party: false
+
+  - name: file-organizer
+    category: delivery-productivity
+    url: https://github.com/ComposioHQ/awesome-claude-skills
+    owner: ComposioHQ
+    summary: Organize source files, exports, and course assets into clean project folders.
+    audience:
+      - course creator
+      - learning operations
+    license: Apache-2.0
+    first_party: false

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{id}}</title>
+    <style>
+      edu-role-play > :not([data-erp-fallback]) { display: none; }
+      [data-erp-fallback].notice {
+        display: block;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+        max-width: 560px;
+        margin: 60px auto;
+        padding: 24px;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        background: #fafafa;
+        color: #111;
+        line-height: 1.5;
+      }
+      [data-erp-fallback] h2 { margin: 0 0 8px 0; font-size: 18px; }
+      [data-erp-fallback] code, [data-erp-fallback] pre {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 13px;
+      }
+      [data-erp-fallback] pre {
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 6px;
+        padding: 10px 12px;
+        overflow-x: auto;
+      }
+      [data-erp-fallback] p { margin: 8px 0; color: #374151; }
+    </style>
+  </head>
+  <body>
+    <edu-role-play id="{{id}}" runtime-version="{{runtimeVersion}}">
+      <div class="notice" data-erp-fallback>
+        <h2>This role-play isn't bundled yet</h2>
+        <p>You're looking at the source composition. Open a terminal in this folder and run:</p>
+        <pre><code>npx edu-role-play start {{id}}.erp</code></pre>
+        <p>That bundles the role-play and opens the playable version in your browser.</p>
+      </div>
+      <edu-persona name="Jamie Ortega" role="mid-level engineer, two years on the team">
+        <background>Strong solo contributor, weak on collaboration. Has shipped two features this quarter but caused three rollbacks by skipping code review. Believes the review process is slow and performative.</background>
+        <goals>Keep shipping at current pace. Avoid being put on a PIP. Get the manager to agree the review process is the real problem.</goals>
+        <constraints>Will become defensive if the conversation opens with a label ("not a team player"). Will concede if given concrete examples they cannot dispute.</constraints>
+        <speech-patterns>Starts replies with "I hear you, but…". Cites specific dates when rebutting. Goes quiet after strong specific feedback.</speech-patterns>
+      </edu-persona>
+
+      <edu-scenario>
+        You are Jamie Ortega's manager. You are giving them direct feedback about the three rollbacks this quarter. Your job is to land the feedback specifically, hear Jamie out, and agree on one behaviour change.
+      </edu-scenario>
+
+      <edu-objective id="name-specifics">Name at least two of the three rollback incidents with dates or PR references.</edu-objective>
+      <edu-objective id="avoid-labels">Handle the conversation without using character labels ("careless", "not a team player").</edu-objective>
+      <edu-objective id="agree-change">Secure Jamie's explicit agreement to one concrete behaviour change.</edu-objective>
+
+      <edu-rubric>
+        <criterion objective="name-specifics" weight="4">Full credit (4): two or more incidents named specifically. Partial (1-3): one named, rest general. None (0): only general patterns mentioned.</criterion>
+        <criterion objective="avoid-labels" weight="3">Full credit (3): feedback stays behavioural throughout. Partial (1-2): one slip, caught. None (0): repeated labels.</criterion>
+        <criterion objective="agree-change" weight="3">Full credit (3): Jamie verbally agrees to a specific behaviour change. Partial (1-2): vague agreement. None (0): Jamie deflects to process issues only.</criterion>
+      </edu-rubric>
+
+      <edu-termination>
+        <turn-limit>18</turn-limit>
+        <objective-check-every>1</objective-check-every>
+        <manual-end>true</manual-end>
+      </edu-termination>
+    </edu-role-play>
+  </body>
+</html>
