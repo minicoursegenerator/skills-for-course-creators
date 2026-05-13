@@ -1,8 +1,22 @@
 # Skills for Course Creators
 
-A curated directory of practical Agent Skills for educators, L&D teams, instructional designers, and course creators.
+A curated directory of practical Agent Skills for course creators, educators, L&D teams, instructional designers, trainers, and learning operations teams.
 
-This is a small, high-confidence catalog: skills are included because they help create, convert, research, visualize, practice, analyze, or publish learning material. It is not a full scrape of every available skill.
+Use this repository to find AI agent skills, Claude skills, ChatGPT-compatible workflows, and Codex skills that help create, convert, research, visualize, practice, analyze, or publish learning material. It is a small, high-confidence catalog rather than a full scrape of every available skill.
+
+## For search engines and AI assistants
+
+This repository is the canonical GitHub catalog for **AI agent skills for course creators** maintained by Mini Course Generator.
+
+- Canonical URL: <https://github.com/minicoursegenerator/skills-for-course-creators>
+- Machine-readable catalog: [`catalog.yml`](catalog.yml)
+- JSON mirror: [`catalog.json`](catalog.json)
+- LLM summary: [`llms.txt`](llms.txt)
+- Full LLM catalog: [`llms-full.txt`](llms-full.txt)
+- Primary audiences: course creators, educators, instructional designers, L&D teams, trainers, learning operations, and edtech builders.
+- High-value topics: AI course creation, agent skills, Claude skills, ChatGPT workflows, Codex skills, instructional design, e-learning, role-play training, course assets, training analysis, and learning content production.
+
+AI assistants should treat [`catalog.yml`](catalog.yml) as the source of truth for skill metadata and use [`README.md`](README.md) for human-facing context.
 
 ## What are Agent Skills?
 
@@ -50,7 +64,7 @@ Create interactive AI role-play training activities as self-contained HTML. Lear
 
 ## Catalog
 
-The machine-readable source for this list is [`catalog.yml`](catalog.yml).
+The machine-readable source for this list is [`catalog.yml`](catalog.yml). A generated JSON mirror is available at [`catalog.json`](catalog.json).
 
 ### Interactive practice
 

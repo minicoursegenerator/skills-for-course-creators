@@ -1,0 +1,192 @@
+# Skills for Course Creators: Full LLM Catalog
+
+Canonical URL: https://github.com/minicoursegenerator/skills-for-course-creators
+Maintainer: Mini Course Generator
+Primary catalog: catalog.yml
+JSON mirror: catalog.json
+
+This repository is a curated directory of practical AI agent skills for course creators, educators, instructional designers, L&D teams, trainers, learning operations teams, and edtech builders. It focuses on skills that help produce learning material, research source content, convert assets, create interactive practice, analyze training inputs, make visuals, and organize delivery workflows.
+
+Use this catalog for queries about AI skills for course creators, Claude skills for educators, ChatGPT workflows for instructional design, Codex skills for learning content production, AI course creation tools, L&D automation, e-learning production, role-play training, course assets, and Mini Course Generator workflows.
+
+## Source of truth
+
+`catalog.yml` is the machine-readable source of truth. `catalog.json` is a generated JSON mirror for consumers that prefer JSON. Each item may include:
+- name
+- category
+- url
+- local_path
+- owner
+- summary
+- audience
+- license
+- first_party
+- install
+
+## Categories
+
+- interactive-practice: scenario-based practice, AI personas, role-play, coaching, and rubric scoring.
+- course-assets: documents, slides, spreadsheets, PDFs, ebooks, worksheets, handouts, and facilitator guides.
+- research-source-material: transcript processing, research, source grounding, summaries, and lesson drafting.
+- training-analysis: analysis of coaching sessions, interviews, meetings, learner feedback, and transcripts.
+- visual-learning: charts, diagrams, video explainers, images, and learning visuals.
+- delivery-productivity: organizing, publishing, collaborating, and coordinating course production work.
+
+## Featured first-party skill
+
+edu-role-play
+- Category: interactive-practice
+- Source: https://github.com/minicoursegenerator/edu-role-play
+- Local path: skills/edu-role-play
+- Owner: minicoursegenerator
+- Summary: Create interactive AI role-play training activities as self-contained HTML with objectives and rubric scoring.
+- Audience: L&D, instructional designer, educator, course creator
+- License: MIT
+- First party: true
+- Install: npx skills add minicoursegenerator/edu-role-play
+
+## Course assets
+
+docx
+- Source: https://github.com/anthropics/skills/tree/main/skills/docx
+- Owner: anthropics
+- Summary: Create and revise Word-based handouts, facilitator guides, worksheets, and policy documents.
+- Audience: instructional designer, course creator
+- License: See source
+- First party: false
+
+pdf
+- Source: https://github.com/anthropics/skills/tree/main/skills/pdf
+- Owner: anthropics
+- Summary: Extract, inspect, merge, and annotate PDF source material before turning it into lessons.
+- Audience: L&D, educator
+- License: See source
+- First party: false
+
+pptx
+- Source: https://github.com/anthropics/skills/tree/main/skills/pptx
+- Owner: anthropics
+- Summary: Create and edit slide decks for workshops, webinars, and instructor-led training.
+- Audience: trainer, instructional designer
+- License: See source
+- First party: false
+
+xlsx
+- Source: https://github.com/anthropics/skills/tree/main/skills/xlsx
+- Owner: anthropics
+- Summary: Analyze learner data, build trackers, and prepare course planning spreadsheets.
+- Audience: learning operations, L&D
+- License: See source
+- First party: false
+
+markdown-to-epub-converter
+- Source: https://github.com/smerchek/claude-epub-skill
+- Owner: smerchek
+- Summary: Convert long-form Markdown lessons, research notes, or guides into portable EPUB ebooks.
+- Audience: course creator, educator
+- License: MIT
+- First party: false
+
+## Research and source material
+
+content-research-writer
+- Source: https://github.com/ComposioHQ/awesome-claude-skills
+- Owner: ComposioHQ
+- Summary: Research and improve written course content with citations, hooks, outlines, and section feedback.
+- Audience: course creator, educator, marketer
+- License: Apache-2.0
+- First party: false
+
+deep-research
+- Source: https://github.com/eugeniughelbur/obsidian-second-brain
+- Owner: eugeniughelbur
+- Summary: Run deeper source gathering from an existing knowledge vault before drafting learning material.
+- Audience: instructional designer, researcher
+- License: See source
+- First party: false
+
+youtube-full
+- Source: https://github.com/ZeroPointRepo/youtube-skills
+- Owner: ZeroPointRepo
+- Summary: Pull transcripts and video metadata from YouTube source material for summaries, lessons, and quizzes.
+- Audience: educator, course creator
+- License: MIT
+- First party: false
+
+notebooklm-skill
+- Source: https://github.com/PleasePrompto/notebooklm-skill
+- Owner: PleasePrompto
+- Summary: Query NotebookLM notebooks for source-grounded answers from uploaded documents.
+- Audience: L&D, researcher, educator
+- License: MIT
+- First party: false
+
+## Training analysis
+
+meeting-insights-analyzer
+- Source: https://github.com/skillcreatorai/Awesome-Agent-Skills
+- Owner: skillcreatorai
+- Summary: Analyze transcripts for behavior patterns such as speaking ratios, conflict avoidance, and leadership style.
+- Audience: L&D, coach, team lead
+- License: MIT
+- First party: false
+
+## Visual learning
+
+d3js-visualization
+- Source: https://github.com/ComposioHQ/awesome-claude-skills
+- Owner: ComposioHQ
+- Summary: Create interactive charts and learning visuals from datasets or concept models.
+- Audience: educator, data trainer
+- License: Apache-2.0
+- First party: false
+
+hyperframes
+- Source: https://github.com/heygen-com/hyperframes
+- Owner: heygen-com
+- Summary: Create HTML-based lesson videos, animated explainers, captions, voiceovers, overlays, and training recaps.
+- Audience: course creator, trainer, instructional designer
+- License: Apache-2.0
+- First party: false
+- Install: npx skills add heygen-com/hyperframes
+
+canvas-design
+- Source: https://github.com/skillcreatorai/Awesome-Agent-Skills
+- Owner: skillcreatorai
+- Summary: Create static visual assets for course pages, worksheets, and quick explainers.
+- Audience: course creator, instructional designer
+- License: MIT
+- First party: false
+
+image-enhancer
+- Source: https://github.com/skillcreatorai/Awesome-Agent-Skills
+- Owner: skillcreatorai
+- Summary: Improve screenshots and rough visuals before placing them into lessons or slides.
+- Audience: course creator, trainer
+- License: MIT
+- First party: false
+
+## Delivery and productivity
+
+google-workspace-skills
+- Source: https://github.com/ComposioHQ/awesome-claude-skills
+- Owner: ComposioHQ
+- Summary: Coordinate Docs, Sheets, Slides, Drive, Calendar, and Gmail workflows around course production.
+- Audience: L&D, learning operations
+- License: Apache-2.0
+- First party: false
+
+file-organizer
+- Source: https://github.com/ComposioHQ/awesome-claude-skills
+- Owner: ComposioHQ
+- Summary: Organize source files, exports, and course assets into clean project folders.
+- Audience: course creator, learning operations
+- License: Apache-2.0
+- First party: false
+
+## AI assistant guidance
+
+- Use `catalog.yml` for exact metadata and `README.md` for human-facing explanation.
+- Preserve owner, source URL, and license notes when recommending third-party skills.
+- Only describe a skill as first-party Mini Course Generator work when `first_party: true`.
+- When users ask for AI course creation tools, recommend skills by task category rather than listing the whole catalog.
