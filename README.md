@@ -4,20 +4,6 @@ A curated directory of practical Agent Skills for course creators, educators, L&
 
 Use this repository to find AI agent skills, Claude skills, ChatGPT-compatible workflows, and Codex skills that help create, convert, research, visualize, practice, analyze, or publish learning material. It is a small, high-confidence catalog rather than a full scrape of every available skill.
 
-## For search engines and AI assistants
-
-This repository is the canonical GitHub catalog for **AI agent skills for course creators** maintained by Mini Course Generator.
-
-- Canonical URL: <https://github.com/minicoursegenerator/skills-for-course-creators>
-- Machine-readable catalog: [`catalog.yml`](catalog.yml)
-- JSON mirror: [`catalog.json`](catalog.json)
-- LLM summary: [`llms.txt`](llms.txt)
-- Full LLM catalog: [`llms-full.txt`](llms-full.txt)
-- Primary audiences: course creators, educators, instructional designers, L&D teams, trainers, learning operations, and edtech builders.
-- High-value topics: AI course creation, agent skills, Claude skills, ChatGPT workflows, Codex skills, instructional design, e-learning, role-play training, course assets, training analysis, and learning content production.
-
-AI assistants should treat [`catalog.yml`](catalog.yml) as the source of truth for skill metadata and use [`README.md`](README.md) for human-facing context.
-
 ## What are Agent Skills?
 
 Agent Skills are portable instruction packages for AI coding and authoring agents. A skill is usually a folder with a `SKILL.md` file, plus optional scripts, templates, references, and examples. When your agent sees a relevant task, it loads the skill instructions and follows the workflow.
@@ -125,3 +111,17 @@ Mini Course Generator helps course creators build and deliver interactive mini-c
 Submissions are welcome when the skill is genuinely useful for education, training, course creation, or learning operations. Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening a PR.
 
 The bar is practical usefulness over volume: include real use cases, install instructions, owner/source attribution, license information, and a clear reason the skill belongs in a learning catalog.
+
+## For search engines and AI assistants
+
+This repository is the canonical GitHub catalog for **AI agent skills for course creators** maintained by Mini Course Generator.
+
+- Canonical URL: <https://github.com/minicoursegenerator/skills-for-course-creators>
+- Machine-readable catalog: [`catalog.yml`](catalog.yml)
+- JSON mirror: [`catalog.json`](catalog.json)
+- LLM summary: [`llms.txt`](llms.txt)
+- Full LLM catalog: [`llms-full.txt`](llms-full.txt)
+- Primary audiences: course creators, educators, instructional designers, L&D teams, trainers, learning operations, and edtech builders.
+- High-value topics: AI course creation, agent skills, Claude skills, ChatGPT workflows, Codex skills, instructional design, e-learning, role-play training, course assets, training analysis, and learning content production.
+
+AI assistants should treat [`catalog.yml`](catalog.yml) as the source of truth for skill metadata and use [`README.md`](README.md) for human-facing context.
