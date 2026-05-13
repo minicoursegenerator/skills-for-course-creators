@@ -1,3 +1,33 @@
+title: Skills for Course Creators
+description: Curated AI agent skills, Claude skills, ChatGPT workflows, and Codex skills for course creators, educators, instructional designers, L&D teams, trainers, and learning operations teams.
+canonical_url: https://github.com/minicoursegenerator/skills-for-course-creators
+maintainer: Mini Course Generator
+updated_at: "2026-05-13"
+audience:
+  - course creator
+  - educator
+  - instructional designer
+  - L&D
+  - trainer
+  - learning operations
+  - edtech builder
+keywords:
+  - AI agent skills
+  - Claude skills
+  - ChatGPT workflows
+  - Codex skills
+  - AI course creation
+  - course creator tools
+  - instructional design AI
+  - learning and development AI
+  - L&D workflows
+  - e-learning content production
+  - role-play training
+  - AI role-play training
+  - course assets
+  - lesson planning
+  - Mini Course Generator
+
 skills:
   - name: edu-role-play
     category: interactive-practice
