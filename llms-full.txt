@@ -121,6 +121,15 @@ notebooklm-skill
 - License: MIT
 - First party: false
 
+x-twitter-scraper
+- Source: https://github.com/Xquik-dev/x-twitter-scraper
+- Owner: Xquik-dev
+- Summary: Gather public X posts, profile context, and media references as source material for lessons and training feedback.
+- Audience: course creator, instructional designer, L&D
+- License: MIT
+- First party: false
+- Install: npx skills@1.5.3 add Xquik-dev/x-twitter-scraper
+
 ## Training analysis
 
 meeting-insights-analyzer

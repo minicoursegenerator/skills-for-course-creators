@@ -29,7 +29,7 @@ npx skills add minicoursegenerator/edu-role-play
 ## How to choose a skill
 
 - Create: use `docx`, `pptx`, `xlsx`, `canvas-design`, `hyperframes`, or `edu-role-play` when you need a finished learning asset.
-- Research: use `content-research-writer`, `deep-research`, `youtube-full`, or `notebooklm-skill` when source material needs to be gathered, summarized, or grounded.
+- Research: use `content-research-writer`, `deep-research`, `youtube-full`, `notebooklm-skill`, or `x-twitter-scraper` when source material needs to be gathered, summarized, or grounded.
 - Convert: use `pdf`, `docx`, `pptx`, `xlsx`, or `markdown-to-epub-converter` when you need to move between source formats and learner-ready formats.
 - Visualize: use `d3js-visualization`, `canvas-design`, or `image-enhancer` for charts, diagrams, visuals, and presentation polish.
 - Practice: use `edu-role-play` to create learner-vs-AI scenario practice with objectives and scoring.
@@ -76,6 +76,7 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | [`deep-research`](https://github.com/eugeniughelbur/obsidian-second-brain) | instructional designer, researcher | Run deeper source gathering from an existing knowledge vault before drafting learning material. |
 | [`youtube-full`](https://github.com/ZeroPointRepo/youtube-skills) | educator, course creator | Pull transcripts and video metadata from YouTube source material for summaries, lessons, and quizzes. |
 | [`notebooklm-skill`](https://github.com/PleasePrompto/notebooklm-skill) | L&D, researcher, educator | Query NotebookLM notebooks for source-grounded answers from uploaded documents. |
+| [`x-twitter-scraper`](https://github.com/Xquik-dev/x-twitter-scraper) | course creator, instructional designer, L&D | Gather public X posts, profile context, and media references as source material for lessons and training feedback. |
 
 ### Training analysis
 
