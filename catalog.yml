@@ -2,7 +2,7 @@ title: Skills for Course Creators
 description: Curated AI agent skills, Claude skills, ChatGPT workflows, and Codex skills for course creators, educators, instructional designers, L&D teams, trainers, and learning operations teams.
 canonical_url: https://github.com/minicoursegenerator/skills-for-course-creators
 maintainer: Mini Course Generator
-updated_at: "2026-05-13"
+updated_at: "2026-06-20"
 audience:
   - course creator
   - educator
@@ -144,6 +144,19 @@ skills:
       - educator
     license: MIT
     first_party: false
+
+  - name: x-twitter-scraper
+    category: research-source-material
+    url: https://github.com/Xquik-dev/x-twitter-scraper
+    owner: Xquik-dev
+    summary: Gather public X posts, profile context, and media references as source material for lessons and training feedback.
+    audience:
+      - course creator
+      - instructional designer
+      - L&D
+    license: MIT
+    first_party: false
+    install: npx skills add Xquik-dev/x-twitter-scraper
 
   - name: meeting-insights-analyzer
     category: training-analysis
