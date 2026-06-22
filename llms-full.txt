@@ -128,7 +128,7 @@ x-twitter-scraper
 - Audience: course creator, instructional designer, L&D
 - License: MIT
 - First party: false
-- Install: npx skills@1.5.3 add Xquik-dev/x-twitter-scraper
+- Install: npx skills add Xquik-dev/x-twitter-scraper
 
 ## Training analysis
 

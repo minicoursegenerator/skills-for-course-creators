@@ -180,7 +180,7 @@
       ],
       "license": "MIT",
       "first_party": false,
-      "install": "npx skills@1.5.3 add Xquik-dev/x-twitter-scraper"
+      "install": "npx skills add Xquik-dev/x-twitter-scraper"
     },
     {
       "name": "meeting-insights-analyzer",
