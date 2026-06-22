@@ -105,7 +105,7 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 Mini Course Generator helps course creators build and deliver interactive mini-courses, share courses publicly or privately, embed them, and export learning content for training workflows. This directory focuses on complementary Agent Skills that help create the source material, practice activities, and operating workflows around course production.
 
 - Website: <https://minicoursegenerator.com/>
-- Skills site: <https://skills.minicoursegenerator.com/>
+- Skills site: <https://minicoursegenerator.com/skills>
 
 ## Contributing
 
