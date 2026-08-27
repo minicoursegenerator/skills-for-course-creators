@@ -45,6 +45,17 @@ edu-role-play
 - First party: true
 - Install: npx skills add minicoursegenerator/edu-role-play
 
+## Interactive practice
+
+retrieval-practice-generator
+- Source: https://github.com/GarethManning/education-agent-skills/tree/main/skills/memory-learning-science/retrieval-practice-generator
+- Owner: GarethManning
+- Summary: Generate retrieval practice questions at varied difficulty levels for quiz starters, revision activities, and low-stakes testing.
+- Audience: educator, instructional designer, trainer
+- License: CC-BY-SA-4.0
+- First party: false
+- Install: claude plugin install https://github.com/GarethManning/education-agent-skills
+
 ## Course assets
 
 docx
@@ -86,6 +97,33 @@ markdown-to-epub-converter
 - Audience: course creator, educator
 - License: MIT
 - First party: false
+
+backwards-design-unit-planner
+- Source: https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/backwards-design-unit-planner
+- Owner: GarethManning
+- Summary: Plan a unit backwards from desired outcomes through assessment evidence to learning activities.
+- Audience: instructional designer, educator, course creator
+- License: CC-BY-SA-4.0
+- First party: false
+- Install: claude plugin install https://github.com/GarethManning/education-agent-skills
+
+criterion-referenced-rubric-generator
+- Source: https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/criterion-referenced-rubric-generator
+- Owner: GarethManning
+- Summary: Generate criterion-referenced rubrics with descriptive performance levels for a task or learning objective.
+- Audience: instructional designer, trainer, L&D
+- License: CC-BY-SA-4.0
+- First party: false
+- Install: claude plugin install https://github.com/GarethManning/education-agent-skills
+
+k12-lesson-planning
+- Source: https://github.com/learning-commons-org/agent-skills/tree/main/skills/k12-lesson-planning
+- Owner: learning-commons-org
+- Summary: Build a standards-aligned lesson plan with student-facing materials and an observation template.
+- Audience: educator, instructional designer
+- License: Apache-2.0
+- First party: false
+- Install: npx skills add learning-commons-org/agent-skills
 
 ## Research and source material
 
@@ -175,6 +213,14 @@ image-enhancer
 - License: MIT
 - First party: false
 
+brand-guidelines
+- Source: https://github.com/anthropics/skills/tree/main/skills/brand-guidelines
+- Owner: anthropics
+- Summary: Apply a consistent brand system across decks, handouts, and course visuals so assets from different sessions still match.
+- Audience: course creator, instructional designer, L&D
+- License: See source
+- First party: false
+
 ## Delivery and productivity
 
 google-workspace-skills
@@ -191,6 +237,22 @@ file-organizer
 - Summary: Organize source files, exports, and course assets into clean project folders.
 - Audience: course creator, learning operations
 - License: Apache-2.0
+- First party: false
+
+accessibility-skills
+- Source: https://github.com/mgifford/accessibility-skills
+- Owner: mgifford
+- Summary: Audit learning material against accessibility guidance covering alt text, captions, color contrast, keyboard use, tables, and plain language.
+- Audience: instructional designer, learning operations, course creator
+- License: AGPL-3.0
+- First party: false
+
+skill-creator
+- Source: https://github.com/anthropics/skills/tree/main/skills/skill-creator
+- Owner: anthropics
+- Summary: Package your own repeatable course production workflow into a reusable SKILL.md that any agent can load.
+- Audience: course creator, learning operations, edtech builder
+- License: See source
 - First party: false
 
 ## AI assistant guidance

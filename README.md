@@ -29,12 +29,15 @@ npx skills add minicoursegenerator/edu-role-play
 ## How to choose a skill
 
 - Create: use `docx`, `pptx`, `xlsx`, `canvas-design`, `hyperframes`, or `edu-role-play` when you need a finished learning asset.
+- Design: use `backwards-design-unit-planner`, `k12-lesson-planning`, or `criterion-referenced-rubric-generator` when you are planning the unit, lesson, or assessment before producing assets.
 - Research: use `content-research-writer`, `deep-research`, `youtube-full`, `notebooklm-skill`, or `x-twitter-scraper` when source material needs to be gathered, summarized, or grounded.
 - Convert: use `pdf`, `docx`, `pptx`, `xlsx`, or `markdown-to-epub-converter` when you need to move between source formats and learner-ready formats.
 - Visualize: use `d3js-visualization`, `canvas-design`, or `image-enhancer` for charts, diagrams, visuals, and presentation polish.
-- Practice: use `edu-role-play` to create learner-vs-AI scenario practice with objectives and scoring.
+- Practice: use `edu-role-play` for learner-vs-AI scenario practice with objectives and scoring, or `retrieval-practice-generator` for quiz starters and low-stakes recall activities.
 - Analyze: use `meeting-insights-analyzer` for transcripts from trainings, coaching sessions, stakeholder interviews, or team meetings.
 - Publish: use `google-workspace-skills`, `file-organizer`, and Mini Course Generator to organize assets, collaborate, and deliver courses.
+- Check: use `accessibility-skills` to review alt text, captions, contrast, and plain language before a course goes out.
+- Extend: use `skill-creator` to turn your own repeatable production workflow into a skill.
 
 ## Featured first-party skills
 
@@ -57,6 +60,7 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | Skill | Best for | Why it is useful |
 | --- | --- | --- |
 | [`edu-role-play`](skills/edu-role-play) | L&D, instructional designer, educator | Build scenario-based practice with AI personas, measurable objectives, and rubric scoring. |
+| [`retrieval-practice-generator`](https://github.com/GarethManning/education-agent-skills/tree/main/skills/memory-learning-science/retrieval-practice-generator) | educator, instructional designer, trainer | Generate retrieval practice questions at varied difficulty for quiz starters and revision activities. |
 
 ### Course assets
 
@@ -67,6 +71,9 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | [`pptx`](https://github.com/anthropics/skills/tree/main/skills/pptx) | trainer, instructional designer | Create and edit slide decks for workshops, webinars, and instructor-led training. |
 | [`xlsx`](https://github.com/anthropics/skills/tree/main/skills/xlsx) | learning operations, L&D | Analyze learner data, build trackers, and prepare course planning spreadsheets. |
 | [`markdown-to-epub-converter`](https://github.com/smerchek/claude-epub-skill) | course creator, educator | Convert long-form Markdown lessons, research notes, or guides into portable EPUB ebooks. |
+| [`backwards-design-unit-planner`](https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/backwards-design-unit-planner) | instructional designer, educator, course creator | Plan a unit backwards from desired outcomes through assessment evidence to learning activities. |
+| [`criterion-referenced-rubric-generator`](https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/criterion-referenced-rubric-generator) | instructional designer, trainer, L&D | Generate criterion-referenced rubrics with descriptive performance levels for a task or objective. |
+| [`k12-lesson-planning`](https://github.com/learning-commons-org/agent-skills/tree/main/skills/k12-lesson-planning) | educator, instructional designer | Build a standards-aligned lesson plan with student-facing materials and an observation template. |
 
 ### Research and source material
 
@@ -92,6 +99,7 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | [`hyperframes`](https://github.com/heygen-com/hyperframes) | course creator, trainer, instructional designer | Create HTML-based lesson videos, animated explainers, captions, voiceovers, overlays, and training recaps. |
 | [`canvas-design`](https://github.com/skillcreatorai/Awesome-Agent-Skills) | course creator, instructional designer | Create static visual assets for course pages, worksheets, and quick explainers. |
 | [`image-enhancer`](https://github.com/skillcreatorai/Awesome-Agent-Skills) | course creator, trainer | Improve screenshots and rough visuals before placing them into lessons or slides. |
+| [`brand-guidelines`](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) | course creator, instructional designer, L&D | Apply one brand system across decks, handouts, and course visuals so assets stay consistent. |
 
 ### Delivery and productivity
 
@@ -99,6 +107,8 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | --- | --- | --- |
 | [`google-workspace-skills`](https://github.com/ComposioHQ/awesome-claude-skills) | L&D, learning operations | Coordinate Docs, Sheets, Slides, Drive, Calendar, and Gmail workflows around course production. |
 | [`file-organizer`](https://github.com/ComposioHQ/awesome-claude-skills) | course creator, learning operations | Organize source files, exports, and course assets into clean project folders. |
+| [`accessibility-skills`](https://github.com/mgifford/accessibility-skills) | instructional designer, learning operations, course creator | Audit learning material for alt text, captions, color contrast, keyboard use, tables, and plain language. |
+| [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | course creator, learning operations, edtech builder | Package your own repeatable production workflow into a reusable `SKILL.md`. |
 
 ## Mini Course Generator
 
