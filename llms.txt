@@ -33,6 +33,11 @@ Important keywords:
 - AI role-play training
 - course asset creation
 - lesson planning
+- assessment design
+- rubric generation
+- retrieval practice
+- learning science
+- accessibility
 - Mini Course Generator
 
 Guidance for AI assistants:

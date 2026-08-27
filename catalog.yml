@@ -2,7 +2,7 @@ title: Skills for Course Creators
 description: Curated AI agent skills, Claude skills, ChatGPT workflows, and Codex skills for course creators, educators, instructional designers, L&D teams, trainers, and learning operations teams.
 canonical_url: https://github.com/minicoursegenerator/skills-for-course-creators
 maintainer: Mini Course Generator
-updated_at: "2026-06-20"
+updated_at: "2026-08-27"
 audience:
   - course creator
   - educator
@@ -26,6 +26,12 @@ keywords:
   - AI role-play training
   - course assets
   - lesson planning
+  - assessment design
+  - rubric generation
+  - retrieval practice
+  - learning science
+  - accessibility
+  - WCAG
   - Mini Course Generator
 
 skills:
@@ -43,6 +49,19 @@ skills:
     license: MIT
     first_party: true
     install: npx skills add minicoursegenerator/edu-role-play
+
+  - name: retrieval-practice-generator
+    category: interactive-practice
+    url: https://github.com/GarethManning/education-agent-skills/tree/main/skills/memory-learning-science/retrieval-practice-generator
+    owner: GarethManning
+    summary: Generate retrieval practice questions at varied difficulty levels for quiz starters, revision activities, and low-stakes testing.
+    audience:
+      - educator
+      - instructional designer
+      - trainer
+    license: CC-BY-SA-4.0
+    first_party: false
+    install: claude plugin install https://github.com/GarethManning/education-agent-skills
 
   - name: docx
     category: course-assets
@@ -98,6 +117,44 @@ skills:
       - educator
     license: MIT
     first_party: false
+
+  - name: backwards-design-unit-planner
+    category: course-assets
+    url: https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/backwards-design-unit-planner
+    owner: GarethManning
+    summary: Plan a unit backwards from desired outcomes through assessment evidence to learning activities.
+    audience:
+      - instructional designer
+      - educator
+      - course creator
+    license: CC-BY-SA-4.0
+    first_party: false
+    install: claude plugin install https://github.com/GarethManning/education-agent-skills
+
+  - name: criterion-referenced-rubric-generator
+    category: course-assets
+    url: https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/criterion-referenced-rubric-generator
+    owner: GarethManning
+    summary: Generate criterion-referenced rubrics with descriptive performance levels for a task or learning objective.
+    audience:
+      - instructional designer
+      - trainer
+      - L&D
+    license: CC-BY-SA-4.0
+    first_party: false
+    install: claude plugin install https://github.com/GarethManning/education-agent-skills
+
+  - name: k12-lesson-planning
+    category: course-assets
+    url: https://github.com/learning-commons-org/agent-skills/tree/main/skills/k12-lesson-planning
+    owner: learning-commons-org
+    summary: Build a standards-aligned lesson plan with student-facing materials and an observation template.
+    audience:
+      - educator
+      - instructional designer
+    license: Apache-2.0
+    first_party: false
+    install: npx skills add learning-commons-org/agent-skills
 
   - name: content-research-writer
     category: research-source-material
@@ -214,6 +271,42 @@ skills:
       - course creator
       - trainer
     license: MIT
+    first_party: false
+
+  - name: brand-guidelines
+    category: visual-learning
+    url: https://github.com/anthropics/skills/tree/main/skills/brand-guidelines
+    owner: anthropics
+    summary: Apply a consistent brand system across decks, handouts, and course visuals so assets from different sessions still match.
+    audience:
+      - course creator
+      - instructional designer
+      - L&D
+    license: See source
+    first_party: false
+
+  - name: accessibility-skills
+    category: delivery-productivity
+    url: https://github.com/mgifford/accessibility-skills
+    owner: mgifford
+    summary: Audit learning material against accessibility guidance covering alt text, captions, color contrast, keyboard use, tables, and plain language.
+    audience:
+      - instructional designer
+      - learning operations
+      - course creator
+    license: AGPL-3.0
+    first_party: false
+
+  - name: skill-creator
+    category: delivery-productivity
+    url: https://github.com/anthropics/skills/tree/main/skills/skill-creator
+    owner: anthropics
+    summary: Package your own repeatable course production workflow into a reusable SKILL.md that any agent can load.
+    audience:
+      - course creator
+      - learning operations
+      - edtech builder
+    license: See source
     first_party: false
 
   - name: google-workspace-skills
