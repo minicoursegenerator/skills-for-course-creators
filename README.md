@@ -35,7 +35,7 @@ npx skills add minicoursegenerator/edu-role-play
 - Visualize: use `d3js-visualization`, `canvas-design`, or `image-enhancer` for charts, diagrams, visuals, and presentation polish.
 - Practice: use `edu-role-play` for learner-vs-AI scenario practice with objectives and scoring, or `retrieval-practice-generator` for quiz starters and low-stakes recall activities.
 - Analyze: use `meeting-insights-analyzer` for transcripts from trainings, coaching sessions, stakeholder interviews, or team meetings.
-- Publish: use `google-workspace-skills`, `file-organizer`, and Mini Course Generator to organize assets, collaborate, and deliver courses.
+- Publish: use `google-workspace-skills`, `file-organizer`, and Mini Course Generator to organize assets, collaborate, and deliver courses. Use [`bulkpublish-social-media-content`](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) to plan, review, schedule, and batch-publish course promotion content through BulkPublish.
 - Check: use `accessibility-skills` to review alt text, captions, contrast, and plain language before a course goes out.
 - Extend: use `skill-creator` to turn your own repeatable production workflow into a skill.
 
@@ -109,6 +109,7 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | [`file-organizer`](https://github.com/ComposioHQ/awesome-claude-skills) | course creator, learning operations | Organize source files, exports, and course assets into clean project folders. |
 | [`accessibility-skills`](https://github.com/mgifford/accessibility-skills) | instructional designer, learning operations, course creator | Audit learning material for alt text, captions, color contrast, keyboard use, tables, and plain language. |
 | [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | course creator, learning operations, edtech builder | Package your own repeatable production workflow into a reusable `SKILL.md`. |
+| [`bulkpublish-social-media-content`](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) | course creator, learning operations, edtech builder | Turn approved course announcements and launch assets into reviewed, scheduled, and batch-published social content through BulkPublish. |
 
 ## Mini Course Generator
 

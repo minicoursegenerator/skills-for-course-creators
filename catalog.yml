@@ -330,3 +330,15 @@ skills:
       - learning operations
     license: Apache-2.0
     first_party: false
+
+  - name: bulkpublish-social-media-content
+    category: delivery-productivity
+    url: https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills
+    owner: azeemkafridi
+    summary: Plan, adapt, review, schedule, and batch-publish course promotion content across social channels through BulkPublish.
+    audience:
+      - course creator
+      - learning operations
+      - edtech builder
+    license: MIT
+    first_party: false
