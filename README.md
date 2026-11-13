@@ -101,6 +101,9 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | [`image-enhancer`](https://github.com/skillcreatorai/Awesome-Agent-Skills) | course creator, trainer | Improve screenshots and rough visuals before placing them into lessons or slides. |
 | [`brand-guidelines`](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) | course creator, instructional designer, L&D | Apply one brand system across decks, handouts, and course visuals so assets stay consistent. |
 
+| [`kling-ai-plugin-global`](https://www.npmjs.com/package/@klingai/plugin-global) | course creator, instructional designer, trainer | Create illustrative lesson images and short scenario videos; requires Global-region OAuth account and credits, with educator review before use. |
+| [`kling-ai-plugin-china`](https://www.npmjs.com/package/@klingai/plugin-cn) | course creator, instructional designer, trainer | Create illustrative lesson images and short scenario videos; requires China-region OAuth account and credits, with educator review before use. |
+
 ### Delivery and productivity
 
 | Skill | Best for | Why it is useful |

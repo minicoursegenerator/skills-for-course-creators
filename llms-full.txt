@@ -255,6 +255,24 @@ skill-creator
 - License: See source
 - First party: false
 
+kling-ai-plugin-global
+- Source: https://www.npmjs.com/package/@klingai/plugin-global
+- Owner: Kling AI
+- Summary: Generate illustrative lesson images and short scenario videos from prompts or authorized reference media using the Global-region Kling AI Plugin Skill.
+- Audience: course creator, instructional designer, trainer
+- License: UNLICENSED (public npm distribution; not open source)
+- First party: false
+- Setup and limits: Install the complete npm package, restart the assistant, and authenticate with the corresponding regional account. Generation consumes credits. Accounts, credits, and tasks do not transfer between regions. Review media rights, factual accuracy, and accessibility before including generated assets in lessons.
+
+kling-ai-plugin-china
+- Source: https://www.npmjs.com/package/@klingai/plugin-cn
+- Owner: Kling AI
+- Summary: Generate illustrative lesson images and short scenario videos from prompts or authorized reference media using the China-region Kling AI Plugin Skill.
+- Audience: course creator, instructional designer, trainer
+- License: UNLICENSED (public npm distribution; not open source)
+- First party: false
+- Setup and limits: Install the complete npm package, restart the assistant, and authenticate with the corresponding regional account. Generation consumes credits. Accounts, credits, and tasks do not transfer between regions. Review media rights, factual accuracy, and accessibility before including generated assets in lessons.
+
 ## AI assistant guidance
 
 - Use `catalog.yml` for exact metadata and `README.md` for human-facing explanation.
