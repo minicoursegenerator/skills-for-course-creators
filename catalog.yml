@@ -330,3 +330,23 @@ skills:
       - learning operations
     license: Apache-2.0
     first_party: false
+
+  - name: "kling-ai-plugin-global"
+    category: "visual-learning"
+    url: "https://www.npmjs.com/package/@klingai/plugin-global"
+    owner: "Kling AI"
+    summary: "Generate illustrative lesson images and short scenario videos from prompts or authorized reference media using the Global-region Kling AI Plugin Skill."
+    audience: ["course creator", "instructional designer", "trainer"]
+    license: "UNLICENSED (public npm distribution; not open source)"
+    first_party: false
+    install: "npm i -g @klingai/plugin-global@latest --registry=https://registry.npmjs.org --allow-scripts=@klingai/plugin-global"
+
+  - name: "kling-ai-plugin-china"
+    category: "visual-learning"
+    url: "https://www.npmjs.com/package/@klingai/plugin-cn"
+    owner: "Kling AI"
+    summary: "Generate illustrative lesson images and short scenario videos from prompts or authorized reference media using the China-region Kling AI Plugin Skill."
+    audience: ["course creator", "instructional designer", "trainer"]
+    license: "UNLICENSED (public npm distribution; not open source)"
+    first_party: false
+    install: "npm i -g @klingai/plugin-cn@latest --registry=https://registry.npmjs.org --allow-scripts=@klingai/plugin-cn"
