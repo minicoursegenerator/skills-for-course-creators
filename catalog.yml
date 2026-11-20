@@ -190,6 +190,17 @@ skills:
     license: MIT
     first_party: false
 
+  - name: youtube-transcript
+    category: research-source-material
+    url: https://github.com/tubeagentkit/youtube-transcript-skills
+    owner: tubeagentkit
+    summary: Fetch YouTube transcripts in any caption language a video offers, with timestamps, plus playlist and channel video lists, to turn lectures and tutorials into lessons, notes, and quizzes.
+    audience:
+      - educator
+      - course creator
+      - researcher
+    license: MIT
+    first_party: false
   - name: notebooklm-skill
     category: research-source-material
     url: https://github.com/PleasePrompto/notebooklm-skill
