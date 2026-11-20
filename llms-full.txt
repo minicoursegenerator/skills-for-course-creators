@@ -151,6 +151,14 @@ youtube-full
 - License: MIT
 - First party: false
 
+youtube-transcript
+- Source: https://github.com/tubeagentkit/youtube-transcript-skills
+- Owner: tubeagentkit
+- Summary: Fetch YouTube transcripts in any caption language a video offers, with timestamps, plus playlist and channel video lists, to turn lectures and tutorials into lessons, notes, and quizzes.
+- Audience: educator, course creator, researcher
+- License: MIT
+- First party: false
+
 notebooklm-skill
 - Source: https://github.com/PleasePrompto/notebooklm-skill
 - Owner: PleasePrompto
