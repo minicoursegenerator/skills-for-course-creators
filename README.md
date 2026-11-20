@@ -30,7 +30,7 @@ npx skills add minicoursegenerator/edu-role-play
 
 - Create: use `docx`, `pptx`, `xlsx`, `canvas-design`, `hyperframes`, or `edu-role-play` when you need a finished learning asset.
 - Design: use `backwards-design-unit-planner`, `k12-lesson-planning`, or `criterion-referenced-rubric-generator` when you are planning the unit, lesson, or assessment before producing assets.
-- Research: use `content-research-writer`, `deep-research`, `youtube-full`, `notebooklm-skill`, or `x-twitter-scraper` when source material needs to be gathered, summarized, or grounded.
+- Research: use `content-research-writer`, `deep-research`, `youtube-full`, `youtube-transcript`, `notebooklm-skill`, or `x-twitter-scraper` when source material needs to be gathered, summarized, or grounded.
 - Convert: use `pdf`, `docx`, `pptx`, `xlsx`, or `markdown-to-epub-converter` when you need to move between source formats and learner-ready formats.
 - Visualize: use `d3js-visualization`, `canvas-design`, or `image-enhancer` for charts, diagrams, visuals, and presentation polish.
 - Practice: use `edu-role-play` for learner-vs-AI scenario practice with objectives and scoring, or `retrieval-practice-generator` for quiz starters and low-stakes recall activities.
@@ -82,6 +82,7 @@ The machine-readable source for this list is [`catalog.yml`](catalog.yml). A gen
 | [`content-research-writer`](https://github.com/ComposioHQ/awesome-claude-skills) | course creator, marketer, educator | Research and improve written course content with citations, hooks, outlines, and section feedback. |
 | [`deep-research`](https://github.com/eugeniughelbur/obsidian-second-brain) | instructional designer, researcher | Run deeper source gathering from an existing knowledge vault before drafting learning material. |
 | [`youtube-full`](https://github.com/ZeroPointRepo/youtube-skills) | educator, course creator | Pull transcripts and video metadata from YouTube source material for summaries, lessons, and quizzes. |
+| [`youtube-transcript`](https://github.com/tubeagentkit/youtube-transcript-skills) | educator, course creator, researcher | Fetch YouTube transcripts in any caption language a video offers, with timestamps, plus playlist and channel video lists, to turn lectures and tutorials into lessons, notes, and quizzes. |
 | [`notebooklm-skill`](https://github.com/PleasePrompto/notebooklm-skill) | L&D, researcher, educator | Query NotebookLM notebooks for source-grounded answers from uploaded documents. |
 | [`x-twitter-scraper`](https://github.com/Xquik-dev/x-twitter-scraper) | course creator, instructional designer, L&D | Gather public X posts, profile context, and media references as source material for lessons and training feedback. |
 
